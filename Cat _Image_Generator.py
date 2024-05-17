@@ -3,7 +3,7 @@ import random
 #I installed Python Imagery Library (Pillow)
 
 from PIL import Image 
-image_paths = ["funny_cat1", "funny_cat2", "funny_cat3"]
+image_paths = ["funny_cat1.jpg", "funny_cat2.jpg", "funny_cat3.jpg"]
 
 random_number1 = random.randint(0, 1)
 random_number2 = random.randint(0, 1)
