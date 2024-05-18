@@ -39,3 +39,16 @@ random_number2 = random.randint(1, 10000000)
 random_number3 = random.randint(1, 10000000)
 Total = random_number1 + random_number2 + random_number3
 print(Total)
+
+#Print and sep examples
+print("Hello", "world", sep="---", end="!!!")
+print(" How are you?")
+
+#CS50 lesson on inputs
+name = input("Hello, what's your name? ")
+print("Nice to meet you, ", end="")
+print(name)
+age = input("And how old are you? ")
+print("Okay so you are " + age + " years old")
+location = input("And where do you live? ")
+print("Okay, so you are " + name + " who is " + age + " years old, and lives in " + location)
