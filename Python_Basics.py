@@ -45,10 +45,10 @@ print("Hello", "world", sep="---", end="!!!")
 print(" How are you?")
 
 #CS50 lesson on inputs
-name = input("Hello, what's your name? ")
+name = input("Hello, what's your name? ").strip().title()
 print("Nice to meet you, ", end="")
 print(name)
-age = input("And how old are you? ")
+age = input("And how old are you? ").strip().title()
 print("Okay so you are " + age + " years old")
-location = input("And where do you live? ")
+location = input("And where do you live? ").strip().title()
 print("Okay, so you are " + name + " who is " + age + " years old, and lives in " + location)
